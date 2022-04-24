@@ -1,4 +1,7 @@
 const express = require('express');
+
+const apiRoutes = require('./routes/apiRoutes');
+
 const { dbNote } = require('./db/db.json')
 const fs = require('fs');
 const path = require('path');
