@@ -1,5 +1,6 @@
 
 const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 const fs = require('fs');
 const path = require('path');
@@ -22,23 +23,13 @@ app.use(express.static('public'));
 app.use(express.json());
 
 app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
-const  dbNote  = require("./db/db");
+ const  dbNote  = require("./db/db");
 
-console.log(dbNote);
+ console.log(dbNote);
 
-// app.get('/api/notes', (req, res) => {
-//     const newId = uuidv4()
-//     console.log(newId);
-//     res.json(dbNote);
-//   });
 
-// app.post('/api/notes', (req, res) => {
-//     const newId = uuidv4()
-//     req.body.id
-//     console.log(req.body);
-//     res.json(req.body);
-//   });
 
 app.listen(PORT, () => {
     console.log(`(>‿◠)✌ API server now on port 3002!`);

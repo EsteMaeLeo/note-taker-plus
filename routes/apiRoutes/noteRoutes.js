@@ -7,6 +7,10 @@ const  notes  = require("../../db/db.json");
 
 const { v4: uuidv4 } = require('uuid')
 
+router.get("/notes", (req, res) => {
+    console.log(notes);
+    res.json(notes);
+});
 
 router.post("/notes", (req, res) => {
     // req.body is where our incoming content will be

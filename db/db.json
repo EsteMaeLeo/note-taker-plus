@@ -8,6 +8,16 @@
       "title": "New Nota",
       "text": "Note text",
       "id": "e057da0b-951b-4438-a4b0-115d880861ab"
+    },
+    {
+      "title": "This note is new",
+      "text": "Dude my note",
+      "id": "4334e296-3a8d-4ce7-baac-80d0f03073cf"
+    },
+    {
+      "title": "Hey Leo",
+      "text": "Mental Note",
+      "id": "1596c847-5cc6-4c94-bca3-f75d71402d0d"
     }
   ]
 }
