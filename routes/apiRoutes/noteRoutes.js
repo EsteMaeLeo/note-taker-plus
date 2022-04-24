@@ -2,7 +2,9 @@ const router = require("express").Router();
 
 const { createNewNote } = require("../../lib/notes");
 
-const { notes } = require("../../db/db");
+const  notes  = require("../../db/db.json");
+
+
 const { v4: uuidv4 } = require('uuid')
 
 
@@ -11,10 +13,9 @@ router.post("/notes", (req, res) => {
     // set id based UUID
     const newId = uuidv4()
     req.body.id = newId;
-
- 
-        const animal = createNewNote(req.body, notes);
-        res.json(notes);
+    console.log(req.body);
+    const animal = createNewNote(req.body, notes);
+    res.json(notes);
 
 })
 
