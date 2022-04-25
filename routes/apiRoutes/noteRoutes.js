@@ -2,7 +2,7 @@ const router = require("express").Router();
 const fs = require('fs');
 const path = require('path');
 
-const { createNewNote } = require("../../lib/notes");
+const { createNewNote, deletenote } = require("../../lib/notes");
 
 const  notes  = require("../../db/db.json");
 
@@ -32,5 +32,15 @@ router.post("/notes", (req, res) => {
     res.json(response);
 
 })
+
+router.delete("/notes/:id", (req, res) => {
+    const result = deletenote(req.params.id);
+    console.log(result);
+    if (result) {
+        res.json(result);
+    } else {
+        res.send(404);
+    }
+});
 
 module.exports  = router;
