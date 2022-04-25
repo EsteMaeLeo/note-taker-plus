@@ -1,4 +1,6 @@
 const router = require("express").Router();
+const fs = require('fs');
+const path = require('path');
 
 const { createNewNote } = require("../../lib/notes");
 
@@ -8,8 +10,16 @@ const  notes  = require("../../db/db.json");
 const { v4: uuidv4 } = require('uuid')
 
 router.get("/notes", (req, res) => {
-    console.log(notes);
-    res.json(notes);
+
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+        } else {
+            const parseNotes = JSON.parse(data);
+
+            res.json(parseNotes);
+        }
+    });
 });
 
 router.post("/notes", (req, res) => {
@@ -18,8 +28,8 @@ router.post("/notes", (req, res) => {
     const newId = uuidv4()
     req.body.id = newId;
     console.log(req.body);
-    const animal = createNewNote(req.body, notes);
-    res.json(notes);
+    const response = createNewNote(req.body, notes);
+    res.json(response);
 
 })
 

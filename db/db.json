@@ -1,23 +1,31 @@
-{
-  "notes": [
+[
     {
-      "title": "Test Title",
-      "text": "Test text"
+        "title": "Test Title",
+        "text": "Test text"
     },
     {
-      "title": "New Nota",
-      "text": "Note text",
-      "id": "e057da0b-951b-4438-a4b0-115d880861ab"
+        "id": "78a28bea-7344-4453-bc77-5eb0661d6728",
+        "title": "New Nota",
+        "text": "Note text"
     },
     {
-      "title": "This note is new",
-      "text": "Dude my note",
-      "id": "4334e296-3a8d-4ce7-baac-80d0f03073cf"
+        "id": "7d87bc01-948a-4aad-a8fc-6d9e2bfe1201",
+        "title": "New Nota1",
+        "text": "Note text1"
     },
     {
-      "title": "Hey Leo",
-      "text": "Mental Note",
-      "id": "1596c847-5cc6-4c94-bca3-f75d71402d0d"
+        "id": "38d39263-5ec2-4801-9e1d-26697a6a9a78",
+        "title": "12",
+        "text": "12"
+    },
+    {
+        "id": "fd53e286-b629-4923-bc69-efa0d4afca90",
+        "title": "1221",
+        "text": "1212"
+    },
+    {
+        "id": "e3d10f39-73a2-423c-a979-53fac2f872af",
+        "title": "Esta Nota",
+        "text": "notes "
     }
-  ]
-}
+]
