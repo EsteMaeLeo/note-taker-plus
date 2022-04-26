@@ -8,17 +8,39 @@
   
 ## Table of Contents
 
+  - [Github repo](#github)
+  - [Deployed Heroku Link](#deployed)
+  - [Screenshot](#screenshot)   
   - [Installation](#installation)
+  - [Build](#build)
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
+
+## Github repo
+https://github.com/EsteMaeLeo/note-taker-plus
+
+## Deployed Heroku Link
+https://polar-tundra-27406.herokuapp.com/
+## Screenshot
+![image](https://user-images.githubusercontent.com/89478789/165289354-96cab806-4f26-4c15-8919-0ffed934cccb.png)
+
+![image](https://user-images.githubusercontent.com/89478789/165289404-9f73cb02-ccac-4a63-ac50-782f01ca6ffd.png)
+
+>npm test
 
 ## Installation
 To install necessary dependencies, run the following command:
 
 > npm i
+
+## Build
+- Javascript
+- Nodejs
+- Html
+- Bootstrap
+- Heroku
 
 ## Usage
 Just Clone and install
@@ -29,11 +51,6 @@ Just Clone and install
 
 ## Contributing
 Please send me an email
-
-## Tests
-To run tests, run the following command:
-
->npm test
 
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at <leonel_morales20@hotmail.com>. Also you can find my excelente work at [EsteMaeLeo](https://www.github.com/EsteMaeLeo)
