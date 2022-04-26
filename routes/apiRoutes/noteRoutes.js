@@ -27,7 +27,7 @@ router.post("/notes", (req, res) => {
     // set id based UUID
     const newId = uuidv4()
     req.body.id = newId;
-    console.log(req.body);
+
     const response = createNewNote(req.body, notes);
     res.json(response);
 
@@ -35,7 +35,7 @@ router.post("/notes", (req, res) => {
 
 router.delete("/notes/:id", (req, res) => {
     const result = deletenote(req.params.id);
-    console.log(result);
+
     if (result) {
         res.json(result);
     } else {
