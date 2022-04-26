@@ -10,7 +10,8 @@
 
   - [Github repo](#github)
   - [Deployed Heroku Link](#deployed)
-  - [Screenshot](#screenshot)   
+  - [Screenshot](#screenshot)  
+  - [Bonus](#bonus) 
   - [Installation](#installation)
   - [Build](#build)
   - [Usage](#usage)
@@ -27,6 +28,16 @@ https://polar-tundra-27406.herokuapp.com/
 ![image](https://user-images.githubusercontent.com/89478789/165289354-96cab806-4f26-4c15-8919-0ffed934cccb.png)
 
 ![image](https://user-images.githubusercontent.com/89478789/165289404-9f73cb02-ccac-4a63-ac50-782f01ca6ffd.png)
+
+## Bonus
+Adding new note:
+
+![image](https://user-images.githubusercontent.com/89478789/165290599-64b1b843-33b0-4051-851f-f60553a73b6e.png)
+
+Click on delete then note is deleted:
+
+![image](https://user-images.githubusercontent.com/89478789/165291045-c6ee8a6b-f18a-470e-a1e6-5fd9ec5db784.png)
+
 
 >npm test
 
